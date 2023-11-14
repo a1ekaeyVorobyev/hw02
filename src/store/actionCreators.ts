@@ -1,4 +1,5 @@
 import * as actionTypes from "./actionTypes"
+import { ArticleAction, DispatchType, IArticle } from "./type"
 
 export function addArticle(article: IArticle) {
   const action: ArticleAction = {
